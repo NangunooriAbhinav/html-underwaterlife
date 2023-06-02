@@ -1,0 +1,176 @@
+div.left {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  transform: rotate(45deg);
+  background-color: white;
+  display: flex;
+  right: 30vw;
+  top: 25vh;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.left video {
+  position: absolute;
+  width: fit-content;
+  height: 100vh;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+h1.title {
+  font-size: 75px;
+  width: 20vw;
+  position: absolute;
+  right: 15vh;
+  bottom: 40%;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  width: 76vw;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(76, 166, 216);
+  font-family: "Raleway", sans-serif;
+}
+
+.name {
+  margin-left: 25px;
+}
+
+.home {
+  margin-left: auto;
+}
+
+.logo img {
+  margin-left: 20px;
+  width: 80px;
+}
+
+.title {
+  font-family: "Raleway", sans-serif;
+}
+
+.video {
+  position: fixed;
+  transform: rotate(-45deg);
+  top: -22vh;
+  width: 100vw;
+}
+
+.info {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.info p {
+  position: absolute;
+  opacity: 1;
+  margin: 10px;
+  transition: all 0.5s;
+}
+
+.fish1 {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  transform: translateX(-100px);
+  animation: move-right 15s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+.fish2 {
+  position: absolute;
+  top: 90vh;
+  left: 0;
+  transform: translateX(-300px);
+  animation: move-right 10s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+.fish3 {
+  position: absolute;
+  top: 160vh;
+  left: 0;
+  transform: translateX(-200px);
+  animation: move-right 20s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move-right {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 140vw;
+  }
+}
+
+.jellyfish {
+  position: absolute;
+  bottom: 0;
+  right: 20vw;
+  transform: translateY(100vh);
+  animation: move-up 10s linear forwards;
+  animation-iteration-count: infinite;
+  z-index: 20;
+}
+
+@keyframes move-up {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: 200vh;
+  }
+}
+
+#visual {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  z-index: -5;
+}
+
+.info {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+}
+
+.info-title {
+  margin-top: 10vh;
+  margin-left: 30vw;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.info-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  padding: 80px;
+  padding-top: 0;
+  line-height: 30px;
+}

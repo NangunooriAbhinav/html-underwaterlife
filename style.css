@@ -1,0 +1,410 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    width: 76vw;
+    text-transform: uppercase;
+    z-index: 30;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(76, 166, 216);
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact {
+    margin-left: auto;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+div.right {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 30vw;
+    top: 25vh;
+    background: linear-gradient(to left, #0d2c57, #2d5894,  #69faed);
+    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    height: 100vh;
+}
+
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+h1 {
+    display: flex;
+    position: absolute;
+    left: 10%;
+    font-size: 50px;
+}
+
+.whale {
+    position: relative;
+    left: 45vw;
+}
+
+#visual {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.info-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 200vh;
+    width: 100vw;
+    background-color: #1d4070;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.blob {
+    overflow: visible;
+    height: 50vh;
+}
+.info-1 div {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.info-1 a h1{
+    color: black;
+}
+
+.info-1 p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+    background-color: rgba(105, 250, 237, 0.4);
+}
+
+.uno {
+    left: -1vw;
+    height: auto;
+}
+
+.problem-info {
+    display: inline-block;
+    position: relative;
+    justify-content: right;
+    text-align: center;
+}
+
+.problem-blob {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.problem-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.dos {
+    position: absolute;
+    right: 0;
+}
+
+.awareness-info {
+    display: inline-block;
+    position: relative;
+    justify-content: right;
+    text-align: center;
+}
+
+.awareness-blob {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.awareness-title {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.tres {
+    justify-content: right;
+    position: absolute;
+    right: 0;
+}
+
+.solution-info {
+    display: inline-block;
+    position: relative;
+    justify-content: right;
+    text-align: center;
+}
+
+.solution-blob {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.solution-title {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: xx-large;
+}
+
+p {
+    color: white;
+    font-size: x-large;
+}
+
+.problem, .solution {
+    position: absolute;
+    display: flex;
+    left: 10vw;
+}
+
+.awareness {
+    position: absolute;
+    display: flex;
+    right: 10vw;
+    background-color: #1d4070;
+    right: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: -4px 0px 5px 0px rgba(0,0,0,0.7)
+}
+
+.problem {
+    position: absolute;
+    display: flex;
+    background-color: #1d4070;
+    left: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.7);
+}
+
+.solution{
+    position: absolute;
+    display: flex;
+    background-color: #1d4070;
+    left: 30px;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 4px 0px 5px 0px rgba(0,0,0,0.7);
+}
+
+.fish1 {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    transform: translateX(-100px);
+    animation: move-right 15s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+.fish2 {
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    transform: translateX(-300px);
+    animation: move-right 10s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+.fish3 {
+    position: absolute;
+    top: 160vh;
+    left: 0;
+    transform: translateX(-200px);
+    animation: move-right 20s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+.fish4 {
+    position: absolute;
+    top: 120vh;
+    left: 0px;
+    transform: translateX(-150px);
+    animation: move-right 20s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+.fish5 {
+    position: absolute;
+    top: 150vh;
+    left: 0px;
+    transform: translateX(-230px);
+    animation: move-right 20s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+.fish6 {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    transform: translateX(-350px);
+    animation: move-right 10s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+.fish7 {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    transform: translateX(-150px);
+    animation: move-right 10s linear forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-right {
+    from {
+      left: 0;
+    }
+    to {
+      left: 140vw;
+    }
+}
+
+.jellyfish1 {
+    position: absolute;
+    bottom: 0;
+    right: 20vw;
+    transform: translateY(-20vh);
+    animation: move-up 10s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+.jellyfish2 {
+    position: absolute;
+    bottom: 0;
+    right: 30vw;
+    transform: translateY(-20vh);
+    animation: move-up 5s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+.jellyfish3 {
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    transform: translateY(-20vh);
+    animation: move-up 7s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+.jellyfish4 {
+    position: absolute;
+    bottom: 0;
+    left: 50vw;
+    transform: translateY(-50vh);
+    animation: move-up 20s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+.jellyfish5 {
+    position: absolute;
+    bottom: 0;
+    left: 5vw;
+    transform: translateY(-30vh);
+    animation: move-up 15s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+.bubble1 {
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    transform: translateY(40vh);
+    animation: move-up 10s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+.bubble2 {
+    position: absolute;
+    bottom: 0;
+    right: 10vw;
+    transform: translateY(-30vh);
+    animation: move-up 10s linear forwards;
+    animation-iteration-count: infinite; 
+}
+
+.bubble3 {
+    position: absolute;
+    bottom: 0;
+    right: 50vw;
+    transform: translateY(-20vh);
+    animation: move-up 20s linear forwards;
+    animation-iteration-count: infinite; 
+}
+@keyframes move-up {
+    from {
+      bottom: 0;
+    }
+    to {
+      bottom: 176.5vh;
+    }
+}
+
+.info-1 h1{
+    transition: all 0.2s ease;
+}
+
+.line {
+    position: absolute;
+    top: 24vh;
+    left: -3vw;
+    width: 100vw;
+    height: 200vh;
+    z-index: 0;
+}
+
+.info-1 h1:hover {
+    font-size: 40px;
+    text-decoration: underline;
+}
